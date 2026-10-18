@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalApiGateway", "Ag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmClient", "BlazorWasmClient\BlazorWasmClient.csproj", "{8BE1B5F6-077C-42B8-AEAD-486B24B05CE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PricingService.IntegrationTest", "PricingService.IntegrationTest\PricingService.IntegrationTest.csproj", "{A1751B94-DD59-41BD-AB61-B4F619679C5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -419,6 +421,18 @@ Global
 		{8BE1B5F6-077C-42B8-AEAD-486B24B05CE1}.Release|x64.Build.0 = Release|Any CPU
 		{8BE1B5F6-077C-42B8-AEAD-486B24B05CE1}.Release|x86.ActiveCfg = Release|Any CPU
 		{8BE1B5F6-077C-42B8-AEAD-486B24B05CE1}.Release|x86.Build.0 = Release|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Debug|x64.Build.0 = Debug|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Debug|x86.Build.0 = Debug|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Release|x64.ActiveCfg = Release|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Release|x64.Build.0 = Release|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Release|x86.ActiveCfg = Release|Any CPU
+		{A1751B94-DD59-41BD-AB61-B4F619679C5E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
