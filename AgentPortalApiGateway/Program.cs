@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -25,6 +25,7 @@ public class Program
         var key = Encoding.ASCII.GetBytes("THIS_IS_A_RANDOM_SECRET_2e7a1e80-16ee-4e52-b5c6-5e8892453459");
 
         return WebHost.CreateDefaultBuilder(args)
+            .UseUrls("http://localhost:8099")
             .ConfigureAppConfiguration((hostingContext, config) =>
             {
                 config
