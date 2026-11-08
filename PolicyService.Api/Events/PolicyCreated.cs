@@ -1,22 +1,16 @@
 ﻿using System;
 using MediatR;
+using PolicyService.Api.Commands.Dtos;
 
-namespace PolicyService.Api.Events
+namespace PolicyService.Api.Events;
+
+public class PolicyCreated : INotification
 {
-    public class PolicyCreated : INotification
-    {
-        public string PolicyNumber { get; set; }
-        public DateTime PolicyFrom { get; set; }
-        public DateTime PolicyTo { get; set; }
-        public string ProductCode { get; set; }
-        public PolicyHolderDto PolicyHolder { get; set; }
-        public decimal TotalPremium { get; set; }
-        public string AgentLogin { get; set; }
-    }
-
-    public class PolicyHolderDto
-    {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-    }
+    public string PolicyNumber { get; set; }
+    public string ProductCode { get; set; }
+    public DateTime PolicyFrom { get; set; }
+    public DateTime PolicyTo { get; set; }
+    public PersonDto PolicyHolder { get; set; }
+    public decimal TotalPremium { get; set; }
+    public string AgentLogin { get; set; }
 }

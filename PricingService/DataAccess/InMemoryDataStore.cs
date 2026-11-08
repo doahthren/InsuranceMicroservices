@@ -86,7 +86,6 @@ namespace PricingService.DataAccess
             farm.BasePremiumRules.AddBasePriceRule("C3", null, "30M");
             farm.BasePremiumRules.AddBasePriceRule("C4", null, "40M");
 
-            farm.DiscountMarkupRules.AddPercentMarkup("FLOOD == \"YES\"", 1.50M);
             farm.DiscountMarkupRules.AddPercentMarkup("NUM_OF_CLAIM > 2", 2.00M);
 
             return farm;

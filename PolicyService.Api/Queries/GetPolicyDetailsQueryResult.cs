@@ -1,4 +1,4 @@
-using PolicyService.Api.Queries.Dtos;
+using PolicyService.Api.Queries.Dto;
 
 namespace PolicyService.Api.Queries;
 

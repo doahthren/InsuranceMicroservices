@@ -1,4 +1,7 @@
-namespace PolicyService.Api.Queries.Dtos;
+using System;
+using System.Collections.Generic;
+
+namespace PolicyService.Api.Queries.Dto;
 
 public class PolicyDetailsDto
 {
@@ -8,5 +11,7 @@ public class PolicyDetailsDto
     public string PolicyHolder { get; set; }
     public decimal TotalPremium { get; set; }
     public string ProductCode { get; set; }
-    public List<string> Covers { get; set; } = new();
+    public string AccountNumber { get; set; }
+
+    public List<string> Covers { get; set; }
 }
